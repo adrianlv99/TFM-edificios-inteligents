@@ -1,0 +1,37 @@
+﻿study_case;scenario;building;battery_initial_soc_kwh;battery_final_soc_kwh;cycle_day;terminal_soc_difference_kwh;tolerance_kwh;result
+Alta demanda;Reglas;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Alta demanda;Reglas;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Alta demanda;Reglas + decision avanzada;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Alta demanda;Reglas + decision avanzada;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Alta demanda;Sin control;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Alta demanda;Sin control;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Reglas;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Reglas;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Reglas + decision avanzada;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Reglas + decision avanzada;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Sin control;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Baja irradiacion;Sin control;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Reglas;Edificio A;3,0;3,0;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Reglas;Edificio B;2,4000000000000004;2,4000000000000004;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Reglas + decision avanzada;Edificio A;3,0;3,0;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Reglas + decision avanzada;Edificio B;2,4000000000000004;2,4000000000000004;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Sin control;Edificio A;3,0;3,0;1;0,0;1e-06;CUMPLE
+Bateria ampliada;Sin control;Edificio B;2,4000000000000004;2,4000000000000004;1;0,0;1e-06;CUMPLE
+Caso base;Reglas;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Caso base;Reglas;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Caso base;Reglas + decision avanzada;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Caso base;Reglas + decision avanzada;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Caso base;Sin control;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Caso base;Sin control;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Estres combinado;Reglas;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Estres combinado;Reglas;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Estres combinado;Reglas + decision avanzada;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Estres combinado;Reglas + decision avanzada;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Estres combinado;Sin control;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Estres combinado;Sin control;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Precios elevados;Reglas;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Precios elevados;Reglas;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Precios elevados;Reglas + decision avanzada;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Precios elevados;Reglas + decision avanzada;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE
+Precios elevados;Sin control;Edificio A;2,0;2,0;1;0,0;1e-06;CUMPLE
+Precios elevados;Sin control;Edificio B;1,6;1,6;1;0,0;1e-06;CUMPLE

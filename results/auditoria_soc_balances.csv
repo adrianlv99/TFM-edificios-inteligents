@@ -1,0 +1,9 @@
+﻿prueba;criterio_esperado;valor_observado;resultado
+Igualdad terminal del SOC;max |SOC_final - SOC_inicial| <= 1e-6 kWh;0.000000000000e+00;CUMPLE
+Dias de estabilizacion utilizados;dia seleccionado <= 20 y convergencia alcanzada;1;CUMPLE
+Balance horario de consumo;max |consumo - (PV directa + descarga util + importacion)| <= 1e-9 kWh;4.440892098501e-16;CUMPLE
+Balance horario fotovoltaico;max |PV - (PV directa + energia enviada a bateria + exportacion)| <= 1e-9 kWh;0.000000000000e+00;CUMPLE
+Perdidas de bateria;max |perdidas registradas - perdidas calculadas| <= 1e-9 kWh;0.000000000000e+00;CUMPLE
+Transicion horaria del SOC;max |SOC_h - (SOC_inicio_h + carga almacenada - energia extraida del SOC)| <= 1e-9 kWh;0.000000000000e+00;CUMPLE
+Carga y descarga simultaneas;0 intervalos;0;CUMPLE
+Escenario sin control;carga=0, descarga=0 y SOC_final=SOC_inicial;"max_carga=0.000000000000e+00; max_descarga=0.000000000000e+00; max_dif_soc=0.000000000000e+00";CUMPLE
